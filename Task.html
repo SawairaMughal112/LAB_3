@@ -1,0 +1,123 @@
+<html>
+<head>
+    <style>
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Merriweather', serif;
+  color: rgb(40, 40, 91);
+  font-weight: bold;
+}
+        nav{
+            text-align: center;
+        }
+        nav img {
+            vertical-align: middle;
+            height: 50px;
+            width: 120px;
+             }
+
+         h1, p{
+            color: #333;
+            text-align: center;
+        }
+
+        .about-me , .project{
+            margin: 150px;
+            margin-top: 0%;
+        }
+        .container {
+            display: flex;
+            height: 250px;
+        }
+        .container2 {
+            display: flex;
+            justify-content: space-between;
+            height: 250px;
+        }
+
+        .left-div {
+            width: 30%; 
+        }
+        
+        img {
+            width: 100%;
+            height: 100%; 
+            object-fit: scale-down; 
+        }
+
+        .right-div {
+            width: 70%; 
+        }
+        .image-cell{
+            width: 20%;
+            margin-left: 10px;
+            object-fit:fill; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Single+Day&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1 style="font-size: 60px;">SAWAIRA MUGHAL</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <img src ="logos.jpg"></img>
+    </nav>
+
+
+
+    <section class="about-me">
+        <h2>ABOUT ME</h2>
+        <div class="container">
+            <div class="left-div">
+                <img src ="profile.jpg"></img>
+            </div>
+            <div class="right-div">
+                Sawaira, a committed computer science student on scholarship, thrives on challenges with a positive mindset.
+                Passionate about technology, she actively seeks hands-on learning experiences. With a strong work ethic, 
+                Sawaira aspires to contribute meaningfully to the dynamic field of computer science, embodying adaptability 
+                and continuous learning.
+            </div>
+        </div>
+    </section>
+
+    <section class="project">
+        <h2>PROJECTS</h2>
+        <div class="container2">
+            <div class="image-cell">
+                <img src ="p1.webp"></img>
+            </div>
+            <div class="image-cell">
+                <img src ="p2.webp"></img>
+            </div>
+            <div class="image-cell">
+                <img src ="p3.webp"></img>
+            </div>
+            <div class="image-cell">
+                <img src ="p4.avif"></img>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Sawaira
+    </footer>
+
+</body>
+</html>
